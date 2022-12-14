@@ -15,6 +15,12 @@ body {
   border-radius: 20px;
  }
 
+.hello {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
  .header {
   color: #fff;
   padding: 16px 16px 134px;
@@ -23,6 +29,16 @@ body {
  }
  .hello-text  {
   font-weight: 400;
-  font-size: 24px;
-  line-height: 29px;
+  font-size: 20px;
+  line-height: 24px;
+ }
+
+ .user {
+  text-align: center;
+ }
+
+ .user-avatar {
+  border-radius : 50%;
+  object-fit: cover ;
+  bottom: 4px solid #fff;
  }
