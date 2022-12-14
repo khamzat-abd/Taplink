@@ -77,3 +77,41 @@ body {
   font-size: 16px;
   line-height: 19px;
  }
+
+ .card {
+  background: rgba(41, 41, 41, 0.11);
+  border-radius: 20px; 
+  margin-top: 21px;
+  margin-bottom: 325px;
+  padding: 20px; 
+ }
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  max-width: 310px;
+  margin: auto ;
+  gap: 30px;
+}
+
+ .button {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  flex-shrink: 1;
+  width: 100%;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff; 
+  gap: 30px;
+ }
+
+ .button.whatsapp {
+  background: #25D366;
+ }
+
+ .button.telegram {
+
+ }
