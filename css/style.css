@@ -15,6 +15,11 @@ body {
   border-radius: 20px;
  }
 
+ .container {
+   max-width: 300px;
+   margin: auto;
+ }
+
 .hello {
   font-weight: 400;
   font-size: 24px;
@@ -26,6 +31,8 @@ body {
   padding: 16px 16px 134px;
   background: url('../img/header-bg.png') no-repeat center / cover;
   border-radius: 10px 10px 0px 0px;
+  width: 391px;
+  height: 180px;
  }
  .hello-text  {
   font-weight: 400;
@@ -34,7 +41,8 @@ body {
  }
 
  .user {
-  text-align: center;
+  text-align: left;
+  font-size: 10px;
  }
 
  .user-avatar {
