@@ -82,8 +82,8 @@ body {
   background: rgba(41, 41, 41, 0.11);
   border-radius: 20px; 
   margin-top: 21px;
-  margin-bottom: 325px;
-  padding: 20px; 
+  margin-bottom: 225px;
+  padding: 20px 20px 82px; 
  }
 
 .buttons {
@@ -113,5 +113,44 @@ body {
  }
 
  .button.telegram {
-
+  background: #0088CC;
  }
+
+ .zametka {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  padding-left: 20px;
+  padding-right: 20px;
+ }
+
+ .footer {
+  background: rgba(41, 41, 41, 0.08);
+  border-radius: 20px;
+  margin-bottom: 30px;
+  padding: 20px;
+  line-height: 20px;
+  gap: 14px;
+ }
+
+.button-work {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 41px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff; 
+}
+
+.button-summary {
+  background-color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 41px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff; 
+}
