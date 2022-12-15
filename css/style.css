@@ -130,7 +130,6 @@ body {
   margin-bottom: 30px;
   padding: 20px;
   line-height: 20px;
-  gap: 14px;
  }
 
 .button-work {
@@ -142,6 +141,7 @@ body {
   border-radius: 10px;
   text-decoration: none;
   color: #fff; 
+  margin-bottom: 14px;
 }
 
 .button-summary {
